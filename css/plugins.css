@@ -1,36 +1,8 @@
-/*-----------------------------------------------------------------------------------
-
-    Theme Name: Crysta - Startup Agency and SasS Business Template
-    Description: Startup Agency and SasS Business Template
-    Author: chitrakootweb
-    Version: 1.0
-
------------------------------------------------------------------------------------*/
-
-/* ----------------------------------------------------------------
-			[ All CSS Plugins & Default Classes File ]
------------------------------------------------------------------*/
-
-/* == bootstrap == */
 @import url("plugin/bootstrap.min.css");
-
-/* == animate Headline == */
 @import url("plugin/animate.css");
-
-/* == fontawesome icon font == */
 @import url("plugin/fontawesome-all.min.css");
-
-/* == magnific-popup == */
 @import url("plugin/magnific-popup.css");
-
-/* == owl.carousel == */
 @import url("plugin/owl.carousel.css");
-
-/* == default classes == */
 @import url("plugin/default.css");
-
-/* == navigation == */
 @import url("plugin/nav-menu.css");
-
-/* == contact form classes == */
 @import url("plugin/mailform.css");
