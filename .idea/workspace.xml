@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c06d50f-fbe6-4368-8849-9e1f53dbabf6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/plugin/animate.css" afterPath="$PROJECT_DIR$/css/plugin/animate.css" />
-      <change beforePath="$PROJECT_DIR$/css/plugin/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/plugin/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/css/plugin/default.css" afterPath="$PROJECT_DIR$/css/plugin/default.css" />
-      <change beforePath="$PROJECT_DIR$/css/plugin/magnific-popup.css" afterPath="$PROJECT_DIR$/css/plugin/magnific-popup.css" />
-      <change beforePath="$PROJECT_DIR$/css/plugin/mailform.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/plugin/owl.carousel.css" afterPath="$PROJECT_DIR$/css/plugin/owl.carousel.css" />
-      <change beforePath="$PROJECT_DIR$/css/plugins.css" afterPath="$PROJECT_DIR$/css/plugins.css" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/img/banner/header-bg.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/banner/header-bg02.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/banner/header.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/content/content-04.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/content/content-06.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/content/content-07.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/content/faq-content.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/logos/logo-color-01.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/logos/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/logos/one.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/partners/client-01.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/partners/client-02.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/partners/client-03.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/partners/client-04.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/partners/client-05.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/partners/client-06.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/pattern/pattren1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/pattern/pattren2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/pattern/pattren3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/pattern/pattren4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/pattern/pattren5.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/core.min.js" afterPath="$PROJECT_DIR$/js/core.min.js" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -347,12 +315,12 @@
       <option name="presentableId" value="Default" />
       <updated>1549033628268</updated>
       <workItem from="1549035126437" duration="337000" />
-      <workItem from="1549477074442" duration="1955000" />
+      <workItem from="1549477074442" duration="2075000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2956000" />
+    <option name="totallyTimeSpent" value="3076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="804" extended-state="6" />
