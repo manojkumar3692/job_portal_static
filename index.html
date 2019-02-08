@@ -88,8 +88,8 @@
                                 <div class="input__email-grp">
                                     <div class="email-box  wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                                         <div class="input">
-                                            <input type="email" placeholder="Enter your email">
-                                            <a href="javascript:void(0)" class="butn"><span>Subscribe</span></a>
+                                            <input id="userVal" type="email" placeholder="Enter your email">
+                                            <a onclick="marketing('user')" href="javascript:void(0)" class="butn"><span>Subscribe</span></a>
                                         </div>
                                         <span>Enter your e-mail to get the latest news.</span>
                                     </div>
@@ -220,8 +220,8 @@
                         <div class="input__email-grp input_max-width">
                             <div class="email-box  wow fadeInUp" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                                 <div class="input">
-                                    <input type="email" placeholder="Enter your email">
-                                    <a href="javascript:void(0)" class="butn"><span>Subscribe</span></a>
+                                    <input id="companyVal" type="email" placeholder="Enter your email">
+                                    <a onclick="marketing('company')" href="javascript:void(0)" class="butn"><span>Subscribe</span></a>
                                 </div>
                                 <span>Enter your e-mail , Our Executive will try to reach you.</span>
                             </div>
@@ -466,6 +466,41 @@
     <a href="javascript:void(0)" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
     <script src="js/core.min.js"></script>
     <script src="js/main.js"></script>
+<script>
+    function marketing (userType) {
+	    console.log(email, userType)
+	    if(userType === 'company') {
+		    var email = document.getElementById('companyVal').value;
+		    fetch('https://job-portal-api.herokuapp.com/api/marketing', {
+			    method: 'POST',
+			    headers: {
+				    'Accept': 'application/json',
+				    'Content-Type': 'application/json'
+			    },
+			    body: JSON.stringify({email: email, user_type: userType})
+		    }).then(function (res) {
+			    alert('Success')
+		    }).catch(function (err) {
+			    alert('Error try later')
+		    })
+	    }else {
+		    var email = document.getElementById('userVal').value;
+		    console.log(email, userType)
+		    fetch('https://job-portal-api.herokuapp.com/api/marketing', {
+			    method: 'POST',
+			    headers: {
+				    'Accept': 'application/json',
+				    'Content-Type': 'application/json'
+			    },
+			    body: JSON.stringify({email: email, user_type: userType})
+		    }).then(function (res) {
+			    alert('Success')
+		    }).catch(function (err) {
+			    alert('Error try later')
+		    })
+        }
+    }
+</script>
 </body>
 
 </html>
