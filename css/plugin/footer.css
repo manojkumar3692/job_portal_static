@@ -47,13 +47,17 @@ section.section-sxt .apply-now-heading {
     min-height: 200px
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     section.section-sd .positions {
         text-align: center
     }
 
     .login-btn-ct {
         width: 40%
+    }
+    .all-positions .col-md-3 {
+        min-height: 100%;
+        margin-bottom: 10px;
     }
 
 }
@@ -119,7 +123,7 @@ section.section-sxt .apply-now-heading {
 
 @media only screen and (max-width: 768px) {
     .footer-pages li {
-        text-align: center
+        text-align: left;
     }
 }
 
