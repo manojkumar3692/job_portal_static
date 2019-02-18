@@ -113,6 +113,9 @@ section.section-sxt .apply-now-heading {
     letter-spacing: 0.8px;
     color: rgba(0, 0, 0, 0.54)
 }
+.list_title {
+    margin-bottom: 7px;
+}
 
 @media only screen and (max-width: 768px) {
     .footer-pages li {
@@ -132,6 +135,9 @@ section.section-sxt .apply-now-heading {
 .footer-pages a {
     color: #337ab7;
     text-decoration: none;
+}
+.get-started-free span {
+    color: #FFFFFF !important;
 }
 
 /*!
