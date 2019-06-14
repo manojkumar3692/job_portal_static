@@ -1,3 +1,5 @@
+
+html{scroll-behavior:smooth}
 body {
     margin: 0;
     padding: 0;
@@ -973,3 +975,16 @@ body {
     }
   }
   
+  @media only screen and (min-width: 1366px) {
+    .LandingNew__container {
+     max-width: 1500px;
+     margin: auto;
+    }
+  }
+  
+  @media only screen and (min-width: 1366px) {
+    .LandingNew .footer {
+     max-width: 1500px;
+     margin: auto;
+    }
+  }
