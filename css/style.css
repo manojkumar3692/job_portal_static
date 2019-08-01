@@ -63,13 +63,12 @@ body {
     align-items: center;
   }
   .LandingNew__logo img {
-    width: 35px;
     height: 25px;
     object-fit: contain;
     padding-right: 9px;
   }
   .LandingNew__logo span {
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 600;
     font-style: normal;
     font-stretch: normal;
