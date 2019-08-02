@@ -201,9 +201,13 @@
                 the world – who would otherwise be out of reach.</p>
   
             </div>
-         
         </div>
-
+        <div class="arrow-grp">
+            <ul>
+              <li> <img src="./img/images/left-arrow.svg" /> </li>
+              <li> <img class="rotate-arrow" src="./img/images/left-arrow.svg" /> </li>
+            </ul>
+         </div>
       </section>
       <section class="LandingNew__emplorers">
         <div class="LandingNew__emplorersBg">
@@ -212,8 +216,8 @@
         <div class="LandingNew__emplorersContent">
           <h2>Extra data about <br /> coders' <span>job preferences </span> </h2>
           <p> We’ve gone even further with our coder profiles to include job preferences. So you can get a  better idea of their preferred technology, salary expectations, relocation preferences etc.</p>
-          <div><a target="_blank" href="https://app.accolades.co.in/signup">
-            <button type='submit'>Request demo</button></a>
+          <div>
+            <button type='submit'  id="myBtn">Request demo</button>
         </div>
         </div>
       </section>
@@ -288,6 +292,42 @@
         </div>
       </section>
     </footer>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Request Demo</h2>
+          </div>
+          <div class="modal-body">
+            <div class="model-formgrp">
+              <form>
+               <div class="model-input">
+                 <label>
+                  Full Name
+                 </label>
+                 <input type="text" />
+               </div>
+               <div class="model-input">
+                  <label>
+                  Mobile Number
+                  </label>
+                  <input type="text" />
+                </div>
+                  <div class="model-input">
+                    <label>
+                    Email Address
+                    </label>
+                    <input type="email"/>
+                  </div>
+                  <button class="model-btn" type="submit"> SEND REQUEST</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      
+      </div>
   </section>
   <a href="javascript:void(0)" class="scroll-to-top"><i class="fas fa-angle-up" aria-hidden="true"></i></a>
   <script src="js/core.min.js"></script>
@@ -330,6 +370,30 @@
         })
       }
     }
+    var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
   </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134202125-1"></script>
