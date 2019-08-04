@@ -39,9 +39,12 @@
 }
 .recruiter__home {
   padding: 0 42px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  display: block;
+  background-image: url(/img/images/home-bg-blue.png);
+  background-size: 59%;
+  height: 100vh;
+  background-position-x: right;
+  background-position-y: top;
 }
 .recruiter__home header {
   width: 100%;
@@ -54,6 +57,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding-left: 30px;
 }
 .recruiter__homeCard {
   width: 100%;
@@ -378,6 +382,17 @@
   font-size: 14px;
   margin: 30px 0 35px;
   border-radius: 3px;
+}
+.recruiter .LandingNew__link ul li {
+  color: #ffffff;
+}
+.recruiter .LandingNew__link ul li button {
+  background-color: #00c692;
+}
+.recruiter__home-new {
+  display: flex;
+  width: 100%;
+  margin-top: 150px;
 }
 
 /*# sourceMappingURL=recruiter.css.map */
