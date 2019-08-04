@@ -162,9 +162,7 @@
   z-index: 2;
   bottom: 50px;
   display: flex;
-  white-space: nowrap;
   flex-wrap: wrap;
-  overflow: scroll;
   justify-content: center;
   padding-bottom: 24px;
 }
@@ -323,11 +321,7 @@
   padding-left: 42px;
   position: relative;
   bottom: 40px;
-}
-@media only screen and (max-width: 767px) {
-  .recruiter .arrow-grp {
-    display: none;
-  }
+  display: none;
 }
 .recruiter .arrow-grp ul li {
   cursor: pointer;
