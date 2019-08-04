@@ -41,8 +41,8 @@
   padding: 0 42px;
   display: block;
   background-image: url(/img/images/home-bg-blue.png);
-  background-size: 59%;
-  height: 100vh;
+  background-size: contain;
+  min-height: 650px;
   background-position-x: right;
   background-position-y: top;
 }
@@ -138,21 +138,28 @@
   bottom: 50px;
   display: flex;
   white-space: nowrap;
+  flex-wrap: wrap;
   overflow: scroll;
-  justify-content: space-between;
+  justify-content: center;
   padding-bottom: 24px;
 }
 .recruiter__infoCard .card {
-  max-width: 370px;
-  min-width: 350px;
+  max-width: 24%;
   border-radius: 8px;
   box-shadow: 0 7px 23px 0 rgba(0, 0, 0, 0.15);
   background-color: #fafbff;
-  display: flex;
+  display: block;
   flex-wrap: wrap;
-  justify-content: center;
+  text-align: center;
   padding: 32px;
-  margin-right: 18px;
+  margin-right: 12px;
+  min-width: 300px;
+  margin-bottom: 15px;
+}
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  .recruiter__infoCard .card {
+    max-width: 40%;
+  }
 }
 .recruiter__infoCard .card img {
   max-width: 150px;
@@ -160,7 +167,7 @@
   object-fit: contain;
 }
 .recruiter__infoCard .card h2 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
   font-style: normal;
   font-stretch: normal;
