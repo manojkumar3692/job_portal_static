@@ -86,7 +86,7 @@
     flex-wrap: wrap;
     h1 {
       width: 460px;
-      font-size: 32px;
+      font-size: 32px; 
       font-weight: 700;
       font-style: normal;
       font-stretch: normal;
@@ -95,12 +95,14 @@
       color: #1d425a;
       margin-bottom: 18px;
     }
-    p {
+    p { 
       width: 436px;
   height: 110px;
   font-size: 14px;
   color: #1d425a;
   line-height: 1.57;
+  margin-bottom: 10px;
+
     }
     button {
       width: 125px;
