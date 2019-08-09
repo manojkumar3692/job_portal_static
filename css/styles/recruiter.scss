@@ -37,7 +37,7 @@
   &__home {
    padding: 0 42px;
     display: block;
-    background-image: url(/img/images/home-bg-blue.png);
+    background-image: url('../../img/images/home-bg-blue.png');
     background-size: contain;
 min-height: 650px;
 background-position-x: right;
@@ -134,7 +134,7 @@ background-position-y: top;
     button {
       @media only screen and (max-width: 767px) {
         margin: 40px 0;
-        }
+        } 
     }
   }
   &__info {
@@ -182,6 +182,7 @@ background-position-y: top;
           max-width: 150px;
           margin: 32px 0 24px;
   object-fit: contain;
+  height: 125px;
         }
         h2 {
           font-size: 22px;

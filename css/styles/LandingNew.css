@@ -1,0 +1,821 @@
+html {
+  scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: "#fff";
+  font-family: 'Open Sans', sans-serif; }
+
+button {
+  outline: none;
+  cursor: pointer; }
+
+h1 {
+  margin: 0; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+li {
+  padding: 0;
+  margin: 0;
+  display: inline-block; }
+
+* {
+  box-sizing: border-box; }
+
+.LandingNew {
+  background-color: #f9f9f9; }
+  .LandingNew__container {
+    padding: 0 42px; }
+    @media only screen and (max-width: 767px) {
+      .LandingNew__container {
+        padding: 0 24px; } }
+  .LandingNew header {
+    padding: 24px 0;
+    display: flex;
+    align-items: center; }
+    .LandingNew header nav {
+      width: 100%;
+      display: flex;
+      justify-content: space-between; }
+  .LandingNew__logo {
+    display: flex;
+    align-items: center; }
+    .LandingNew__logo img {
+      width: 35px;
+      height: 25px;
+      object-fit: contain;
+      padding-right: 9px; }
+    .LandingNew__logo span {
+      font-size: 22px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.32;
+      letter-spacing: normal;
+      text-align: center;
+      color: #1d425a; }
+  .LandingNew__link ul li {
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1d425a;
+    padding-left: 25px; }
+    .LandingNew__link ul li button {
+      width: 125px;
+      height: 30px;
+      border-radius: 2px;
+      background-color: #1d425a;
+      font-size: 14px;
+      font-weight: 700;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.36;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+      outline: none;
+      border: none; }
+  .LandingNew__home {
+    padding-top: 43px;
+    display: flex;
+    background-image: url("../img/images/group-3@2x.png");
+    background-repeat: no-repeat;
+    background-size: 82%;
+    min-height: 500px;
+    background-position-x: 100%;
+    background-position-y: 12px; }
+  .LandingNew__homeContent {
+    flex-direction: column;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .LandingNew__homeContent h1 {
+      width: 460px;
+      font-size: 32px;
+      font-weight: 700;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 50px;
+      letter-spacing: normal;
+      color: #1d425a;
+      margin-bottom: 18px; }
+    .LandingNew__homeContent p {
+      width: 436px;
+      height: 110px;
+      font-size: 14px;
+      color: #1d425a;
+      line-height: 1.57;
+      margin-bottom: 10px; }
+    .LandingNew__homeContent button {
+      width: 125px;
+      height: 40px;
+      border-radius: 2px;
+      background-color: #1d425a;
+      font-size: 16px;
+      font-weight: 400;
+      /* font-style: normal; */
+      /* font-stretch: normal; */
+      /* line-height: 1.36; */
+      /* letter-spacing: normal; */
+      text-align: center;
+      color: #ffffff;
+      outline: none;
+      border: none;
+      box-shadow: 1px 1px 3px 0px #1d425a; }
+  .LandingNew__homeBanner {
+    width: 50%; }
+    .LandingNew__homeBanner img {
+      width: 100%; }
+  .LandingNew__content {
+    padding-top: 85px; }
+  .LandingNew__contentGrp {
+    display: flex; }
+  .LandingNew__card {
+    width: 33%;
+    justify-content: space-between; }
+    .LandingNew__card img {
+      width: 40px; }
+    .LandingNew__card h2 {
+      margin: 5px 0 12px;
+      font-size: 16px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.44;
+      letter-spacing: normal;
+      color: #00c692; }
+    .LandingNew__card h3 {
+      margin: 0;
+      font-size: 13px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.57;
+      letter-spacing: normal;
+      color: #1d425a;
+      width: 75%; }
+  .LandingNew__features {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px; }
+    .LandingNew__features h3 {
+      font-size: 16px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.44;
+      letter-spacing: normal;
+      color: #1d425a; }
+    .LandingNew__features h1 {
+      font-size: 28px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.34;
+      letter-spacing: normal;
+      color: #1d425a;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 80px; }
+  .LandingNew__featuresContent {
+    width: 50%; }
+    .LandingNew__featuresContent h3 {
+      font-size: 16px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.44;
+      letter-spacing: normal;
+      color: #1d425a;
+      margin-top: 40px; }
+  .LandingNew__featuresCard {
+    margin-bottom: 40px; }
+    .LandingNew__featuresCard h2 {
+      font-size: 18px;
+      font-weight: 700;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.44;
+      letter-spacing: normal;
+      color: #00c692;
+      margin: 0 0 8px; }
+    .LandingNew__featuresCard p {
+      font-size: 14px;
+      font-weight: normal;
+      font-style: 400;
+      font-stretch: normal;
+      line-height: 1.57;
+      letter-spacing: normal;
+      color: #1d425a;
+      margin-bottom: 15px;
+      padding-right: 35px; }
+  .LandingNew__featuresBg {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .LandingNew__emplorers {
+    margin: 80px 0px;
+    display: flex;
+    flex-wrap: wrap; }
+    .LandingNew__emplorers h3 {
+      font-size: 16px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.44;
+      letter-spacing: normal;
+      color: #1d425a; }
+    .LandingNew__emplorers h1 {
+      font-size: 28px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.34;
+      letter-spacing: normal;
+      color: #1d425a;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 80px; }
+  .LandingNew__emplorersContent {
+    width: 50%; }
+    .LandingNew__emplorersContent h3 {
+      font-size: 16px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.44;
+      letter-spacing: normal;
+      color: #1d425a;
+      margin-top: 40px;
+      padding-left: 20px; }
+  .LandingNew__emplorersCard {
+    padding-left: 20px; }
+    .LandingNew__emplorersCard h2 {
+      font-size: 16px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.44;
+      letter-spacing: normal;
+      color: #00c692;
+      margin: 0 0 4px; }
+    .LandingNew__emplorersCard p {
+      font-size: 13px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.57;
+      letter-spacing: normal;
+      color: #1d425a;
+      margin-bottom: 15px; }
+  .LandingNew__emplorersBg {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .LandingNew__testimonial {
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap; }
+    .LandingNew__testimonial h1 {
+      font-size: 28px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.34;
+      letter-spacing: normal;
+      color: #1d425a;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 32px; }
+  .LandingNew__testimonialCard {
+    box-shadow: 0 2px 17px 0 rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    padding: 24px;
+    display: flex;
+    max-width: 79%;
+    margin: auto; }
+    .LandingNew__testimonialCard h2 {
+      font-size: 14px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 22px;
+      letter-spacing: normal;
+      text-align: left;
+      color: #1d425a;
+      width: 95%; }
+  .LandingNew__testimonialProfile p {
+    max-width: 42px;
+    margin: auto;
+    padding: 24px 0 4px; }
+    .LandingNew__testimonialProfile p img {
+      width: 100%; }
+  .LandingNew__testimonialProfile span {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: #00d8af;
+    display: block; }
+  .LandingNew__testimonialProfile label {
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    color: #1d425a;
+    display: block; }
+  .LandingNew .footer {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fafafa;
+    padding: 52px 42px;
+    display: flex;
+    align-items: flex-start; }
+    .LandingNew .footer__logo {
+      display: flex;
+      align-items: center; }
+      .LandingNew .footer__logo img {
+        width: 35px;
+        height: 25px;
+        object-fit: contain;
+        padding-right: 9px; }
+      .LandingNew .footer__logo span {
+        font-size: 22px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.32;
+        letter-spacing: normal;
+        text-align: center;
+        color: #1d425a; }
+    .LandingNew .footer__text {
+      font-size: 12px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: #1d425a;
+      width: 80%; }
+    .LandingNew .footer__nav {
+      display: block; }
+      .LandingNew .footer__nav ul {
+        display: block; }
+        .LandingNew .footer__nav ul li {
+          font-size: 13px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 16px;
+          letter-spacing: normal;
+          color: #1d425a;
+          display: inline-block;
+          width: 100%; }
+        .LandingNew .footer__nav ul .activeFooter {
+          font-size: 16px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          letter-spacing: normal;
+          color: #00c692; }
+  .LandingNew__works {
+    margin-top: 120px !important;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1000px; }
+    .LandingNew__works h1 {
+      font-size: 28px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.34;
+      letter-spacing: normal;
+      color: #1d425a;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 8px; }
+    .LandingNew__works p {
+      font-size: 12px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.57;
+      letter-spacing: normal;
+      text-align: center;
+      color: #1d425a;
+      width: 100%;
+      margin-bottom: 40px; }
+  .LandingNew__homeGrp {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: flex-start; }
+    @media only screen and (max-width: 767px) {
+      .LandingNew__homeGrp {
+        display: block; } }
+    .LandingNew__homeGrp .card {
+      padding: 0;
+      max-width: 48%;
+      width: 48%; }
+      @media only screen and (max-width: 767px) {
+        .LandingNew__homeGrp .card {
+          width: 100%;
+          max-width: 100%; } }
+      .LandingNew__homeGrp .card h2 {
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #1d425a;
+        margin: 0;
+        margin-bottom: 10px; }
+      .LandingNew__homeGrp .card p {
+        font-size: 12px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.57;
+        letter-spacing: normal;
+        text-align: left;
+        color: #1d425a;
+        width: 75%;
+        margin-bottom: 0; }
+        @media only screen and (max-width: 767px) {
+          .LandingNew__homeGrp .card p {
+            width: 100%;
+            margin-bottom: 30px; } }
+    .LandingNew__homeGrp .ImgBorder {
+      padding: 0;
+      border: 1px solid #00d8af;
+      height: 100%;
+      position: relative;
+      margin-left: 70px;
+      margin-right: 70px; }
+      @media only screen and (max-width: 767px) {
+        .LandingNew__homeGrp .ImgBorder {
+          display: none; } }
+      .LandingNew__homeGrp .ImgBorder span {
+        position: absolute;
+        top: -2px;
+        display: block;
+        border-radius: 50%;
+        width: 31px;
+        height: 31px;
+        border: solid 2px #00d8af;
+        background-color: #fff;
+        text-align: center;
+        left: -15px;
+        font-size: 13px;
+        line-height: 27px; }
+    .LandingNew__homeGrp .Imgcard {
+      padding: 0;
+      max-width: 48%;
+      width: 48%;
+      height: 200px;
+      margin-bottom: 60px;
+      border-radius: 11px;
+      background-image: url("../img/images/landing/signup.png");
+      background-repeat: no-repeat; }
+      @media only screen and (max-width: 767px) {
+        .LandingNew__homeGrp .Imgcard {
+          width: 100%;
+          max-width: 100%; } }
+      .LandingNew__homeGrp .Imgcard:nth-of-type(1) {
+        background-image: url("../img/images/landing/souce.png"); }
+      .LandingNew__homeGrp .Imgcard:nth-of-type(2) {
+        background-image: url("../img/images/landing/dashboard.png"); }
+    .LandingNew__homeGrp .ImgcardType {
+      padding: 0;
+      max-width: 48%;
+      width: 48%;
+      height: 200px;
+      margin-bottom: 60px;
+      border-radius: 11px;
+      background-image: url("../img/images/landing/dashboard.png");
+      background-repeat: no-repeat; }
+      @media only screen and (max-width: 767px) {
+        .LandingNew__homeGrp .ImgcardType {
+          width: 100%;
+          max-width: 100%; } }
+      .LandingNew__homeGrp .ImgcardType:nth-of-type(1) {
+        background-image: url("../img/images/landing/jobs.png"); }
+  .LandingNew__whyAcc {
+    margin-top: 64px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    border: solid 1px #e6e6e6;
+    padding: 32px 15px 20px; }
+    @media only screen and (max-width: 767px) {
+      .LandingNew__whyAcc {
+        border: none;
+        margin-top: 45px;
+        padding: 0; } }
+    .LandingNew__whyAcc h1 {
+      font-size: 24px;
+      font-weight: 700;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.34;
+      letter-spacing: normal;
+      color: #1d425a;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 8px; }
+    .LandingNew__whyAcc h2 {
+      width: 590px;
+      margin: 0 auto;
+      font-size: 14px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.57;
+      letter-spacing: normal;
+      text-align: center;
+      color: #1d425a;
+      margin-bottom: 40px;
+      margin-top: 0; }
+    .LandingNew__whyAcc .card {
+      padding: 16px;
+      max-width: 30%;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+      background-color: #fafbff;
+      cursor: pointer; }
+      @media only screen and (max-width: 767px) {
+        .LandingNew__whyAcc .card {
+          max-width: 100%;
+          margin-bottom: 12px; } }
+      .LandingNew__whyAcc .card:hover {
+        background-color: #1d425a;
+        transform: scale(1.1);
+        transition: 1s ease-in-out; }
+        .LandingNew__whyAcc .card:hover p label {
+          color: #fff; }
+        .LandingNew__whyAcc .card:hover .cardText {
+          color: #fff; }
+      .LandingNew__whyAcc .card .cardText {
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.42;
+        letter-spacing: normal;
+        color: #000000; }
+      .LandingNew__whyAcc .card p {
+        font-size: 14px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.36;
+        letter-spacing: normal;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        margin-bottom: 5px; }
+        .LandingNew__whyAcc .card p span {
+          display: block; }
+          .LandingNew__whyAcc .card p span img {
+            width: 15px;
+            height: 15px;
+            object-fit: contain; }
+        .LandingNew__whyAcc .card p label {
+          font-size: 14px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.43;
+          letter-spacing: normal;
+          color: #1d425a;
+          display: block;
+          margin-left: 8px; }
+  .LandingNew__whyAccGrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 85%;
+    margin: auto; }
+    @media only screen and (max-width: 767px) {
+      .LandingNew__whyAccGrp {
+        display: block;
+        max-width: 100%; } }
+  .LandingNew__testimonialImg img {
+    max-width: 230px; }
+  .LandingNew__testimonialContent {
+    text-align: left;
+    margin-left: 40px;
+    position: relative; }
+    .LandingNew__testimonialContent .posBtm {
+      text-align: right; }
+  .LandingNew__Join {
+    margin: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    padding: 32px 37px;
+    justify-content: space-between;
+    align-items: center; }
+    .LandingNew__Join h1 {
+      font-size: 28px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.34;
+      letter-spacing: normal;
+      color: #1d425a;
+      text-align: left;
+      width: 100%;
+      margin-bottom: 8px; }
+    .LandingNew__Join p {
+      font-size: 12px;
+      font-weight: 300;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.57;
+      letter-spacing: normal;
+      text-align: left;
+      color: #1d425a;
+      width: 100%;
+      margin-top: 0; }
+    .LandingNew__Join .content {
+      width: 80%; }
+    .LandingNew__Join .btn {
+      width: 20%;
+      text-align: right; }
+      .LandingNew__Join .btn button {
+        border-radius: 2px;
+        background-color: #00cd9d;
+        width: 130px;
+        height: 35px;
+        outline: none;
+        border: none;
+        font-size: 14px;
+        font-weight: 400;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff; }
+
+.aboutAccolades {
+  margin-top: 120px;
+  text-align: center; }
+  @media only screen and (max-width: 767px) {
+    .aboutAccolades {
+      margin-top: 0; } }
+  .aboutAccolades img {
+    width: 30%;
+    margin: 40px 0px; }
+  .aboutAccolades h1 {
+    width: 594px;
+    margin: 0 auto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.34;
+    text-align: center;
+    color: #1d425a;
+    padding-bottom: 12px; }
+  .aboutAccolades p {
+    text-align: center;
+    width: 660px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.57;
+    margin-bottom: 12px;
+    color: #1d425a; }
+    .aboutAccolades p:nth-last-child(1) {
+      width: 856px; }
+
+@media only screen and (max-width: 767px) {
+  .LandingNew__home {
+    min-height: 320px;
+    background-image: none;
+    text-align: center; }
+  .LandingNew__homeContent {
+    width: 100%;
+    display: block; }
+    .LandingNew__homeContent h1 {
+      font-size: 35px;
+      width: 100%;
+      line-height: 41px; }
+    .LandingNew__homeContent p {
+      margin-bottom: 30px;
+      font-size: 14px;
+      width: 100%;
+      height: auto; }
+  .LandingNew__testimonialImg {
+    text-align: center; }
+    .LandingNew__testimonialImg img {
+      max-width: 150px; }
+  .LandingNew__testimonialContent {
+    margin-left: 0; }
+    .LandingNew__testimonialContent img {
+      width: 30px; }
+  .LandingNew__testimonialProfile {
+    text-align: center; }
+  .LandingNew__Join {
+    margin: 40px 0;
+    display: block;
+    padding: 24px; }
+    .LandingNew__Join .content {
+      width: 100%; }
+    .LandingNew__Join .btn {
+      width: 100%;
+      text-align: center;
+      margin-top: 20px; }
+  .LandingNew__features {
+    margin-top: 0; }
+    .LandingNew__features h1 {
+      text-align: left;
+      margin-bottom: 40px;
+      font-size: 24px; }
+  .LandingNew__featuresBg {
+    width: 100%; }
+    .LandingNew__featuresBg img {
+      width: 100%; }
+  .LandingNew__featuresContent {
+    width: 100%; }
+  .LandingNew__featuresCard {
+    margin-bottom: 25px; }
+  .LandingNew__emplorers {
+    display: flex;
+    margin: 25px 0px;
+    flex-direction: column-reverse; }
+  .LandingNew__works {
+    margin-top: 30px !important; }
+  .LandingNew__emplorersBg {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px; }
+    .LandingNew__emplorersBg img {
+      width: 100%; }
+  .LandingNew__emplorersContent {
+    width: 100%; }
+  .LandingNew__emplorersCard {
+    padding-left: 0; }
+  .LandingNew__testimonial {
+    margin-top: 30px; }
+  .LandingNew__testimonialCard {
+    max-width: 100%;
+    display: block; }
+  .LandingNew__link ul li {
+    font-size: 13px;
+    padding-left: 13px; }
+    .LandingNew__link ul li button {
+      display: none; }
+  .LandingNew__logo span {
+    display: none; }
+  .LandingNew header nav {
+    align-items: end; }
+  .LandingNew .aboutAccolades {
+    padding: 3rem 0rem;
+    text-align: left; }
+    .LandingNew .aboutAccolades img {
+      width: 90%;
+      margin: 0 auto; }
+    .LandingNew .aboutAccolades h1 {
+      text-align: left;
+      font-size: 24px;
+      margin-bottom: 12px;
+      width: 100%; }
+    .LandingNew .aboutAccolades p {
+      width: 100%;
+      text-align: left; }
+
+  .footer {
+    padding: 24px;
+    flex-wrap: wrap; }
+    .footer__nav {
+      display: block;
+      margin: 10px 0;
+      width: 100%; } }
+
+/*# sourceMappingURL=LandingNew.css.map */

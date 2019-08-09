@@ -1,0 +1,23 @@
+[debug] [2019-08-09T07:59:57.473Z] ----------------------------------------------------------------------
+[debug] [2019-08-09T07:59:57.476Z] Command:       /home/debjeet/.nvm/versions/node/v8.9.4/bin/node /home/debjeet/.nvm/versions/node/v8.9.4/bin/firebase deploy
+[debug] [2019-08-09T07:59:57.476Z] CLI Version:   6.10.0
+[debug] [2019-08-09T07:59:57.476Z] Platform:      linux
+[debug] [2019-08-09T07:59:57.476Z] Node Version:  v8.9.4
+[debug] [2019-08-09T07:59:57.476Z] Time:          Fri Aug 09 2019 13:29:57 GMT+0530 (IST)
+[debug] [2019-08-09T07:59:57.476Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-09T07:59:57.483Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-09T07:59:57.483Z] > authorizing via signed-in user
+[debug] [2019-08-09T07:59:57.483Z] [iam] checking project job-portal-a417d for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-08-09T07:59:57.485Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/job-portal-a417d:testIamPermissions  
+
+[debug] [2019-08-09T07:59:58.963Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-09T07:59:58.968Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/job-portal-a417d  
+ 
+[debug] [2019-08-09T07:59:59.967Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'job-portal-a417d'...
+[info] 
+[info] i  deploying hosting
+[debug] [2019-08-09T07:59:59.974Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/job-portal-a417d/versions  
+
