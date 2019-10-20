@@ -818,4 +818,182 @@ li {
       margin: 10px 0;
       width: 100%; } }
 
+      .api-page {
+      }
+      .api-page .recruiter__home {
+        background-image: none;
+        background-color: #1d425a;
+        padding: 0 100px;
+        min-height: 720px;
+      }
+      .api-page .recruiter__homeContentRight {
+        flex-direction: row;
+        justify-content: flex-end;
+      }
+      .api-page .recruiter__homeContentRight img {
+        max-width: 80%;
+      }
+      .api-page .LandingNew__homeContent h1 {
+        font-size: 32px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.34;
+        letter-spacing: normal;
+        color: #ffffff;
+      }
+      .api-page .LandingNew__homeContent span {
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.57;
+        letter-spacing: normal;
+        color: #ffffff;
+      }
+      .api-page .LandingNew__homeContent h1 b {
+
+        color: #00c692;
+      }
+      .api-page  .LandingNew__homeContent button {
+        background-color: #ffffff;
+        font-size: 14px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.36;
+        letter-spacing: normal;
+        text-align: center;
+        color: #1d425a;
+        margin-top: 48px;
+
+      }
+      .api-page .recruiter__home-new {
+        margin-top: 35px;
+      }
+      .api-page .LandingNew__homeContent {
+        padding-top: 130px;
+      }
+      .api-page .LandingNew__whyAcc {
+          border: none;
+      }
+      .api-page  .LandingNew__whyAcc h1 b {
+        color:#00c692;
+      }
+      .api-page  .LandingNew__whyAcc .LandingNew__whyAcc--sub {
+        max-width: 100%;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.64;
+        letter-spacing: normal;
+        text-align: center;
+        color: #1d425a;
+        margin-bottom: 40px !important;
+        margin: auto;
+      }
+      .api-page .LandingNew__whyAcc h1 {
+        margin-bottom: 12px;
+      }
+      .api-page  .LandingNew__whyAcc .card .Imggrp img {
+        width: 100%;
+      }
+      .api-page  .LandingNew__whyAcc .card .cardText h2 {
+  font-size: 15px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 22px !important;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1d425a;
+  width: 100%;
+  margin: 20px 0 50px;
+      }
+      .api-page .LandingNew__whyAcc .card {
+        padding: 0;
+        max-width: 220px;
+        margin: 0 40px;
+      }
+      .api-page .LandingNew__whyAcc .card:hover {
+        background-color: #fff;
+        transform: scale(1.1);
+        transition: 1s ease-in-out;
+      }
+      .api-page  .LandingNew__whyAcc .card  .brder {
+        display: block;
+        border-bottom: solid 1px #1d425a !important;
+        opacity: 0.5;
+        width: 80% !important;
+        margin: auto;
+      }
+      .api-page  .LandingNew__whyAcc .card  label {
+        font-size: 13px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.77;
+        letter-spacing: normal;
+        text-align: center;
+        color: #00c692;
+        padding: 12px 0 16px;
+        display: block;
+      }
+      .api-page  .LandingNew__whyAccGrp {
+        max-width: 100% !important;
+        min-width: 100%;
+        justify-content: center;
+      }
+      .api-page    .LandingNew__logo img {
+        width: 250px;
+        height: 30px;
+      }
+      @media only screen and (max-width: 767px) {
+        .api-page header nav {
+          align-items: center;
+        }
+        .api-page .recruiter__home {
+          padding: 20px;
+        }
+        .api-page .LandingNew__logo img {
+          width: 130px;
+          height: auto;
+          padding-right: 0;
+        }
+        .api-page  .recruiter__home header {
+          height: auto;
+        }
+        .api-page  .LandingNew header nav {
+          align-items: center;
+        }
+        .api-page  .LandingNew__link ul li button {
+          width: 75px;
+        }
+        .api-page .LandingNew__link ul li {
+          padding-left: 7px;
+        }
+        .api-page .LandingNew__homeContent {
+          padding-top: 50px;
+        }
+        .api-page .LandingNew__homeContent h1 {
+          font-size: 20px;
+        }
+        .api-page .recruiter__homeContentRight {
+          padding-left: 0;
+          padding-left: 30px;
+        }
+        .api-page .recruiter__homeContentRight img {
+          max-width: 100%;
+        }
+        .api-page .LandingNew__whyAcc {
+          margin: 0 !important;
+          padding: 40px 20px !important;
+        }
+        .api-page .LandingNew__whyAcc .card {
+          max-width: 320px;
+        }
+        
+      }
+
 /*# sourceMappingURL=style.css.map */

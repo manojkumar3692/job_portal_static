@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="177" height="25" viewBox="0 0 177 25">
+   <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+      text {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+        <rect id="b" width="318" height="92" rx="4"/>
+        <filter id="a" width="113.2%" height="145.7%" x="-6.6%" y="-16.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="6" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="6"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+        <linearGradient id="c" x1="50%" x2="50%" y1="25%" y2="105.927%">
+            <stop offset="0%" stop-color="#CEC7FE" stop-opacity=".2"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".2"/>
+        </linearGradient>
+        <rect id="e" width="336" height="108" rx="4"/>
+        <filter id="d" width="108.3%" height="125.9%" x="-4.2%" y="-9.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+        
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#00C692" d="M11.713.98C9.38 2.473 7.544 4.138 6.207 5.973 4.869 7.81 4.2 9.971 4.2 12.46c0 1.4.296 2.808.887 4.223a8.665 8.665 0 0 0 2.66 3.524c1.182.933 2.597 1.4 4.246 1.4 1.338 0 2.528-.311 3.57-.934a6.511 6.511 0 0 0 2.427-2.52c.576-1.057.863-2.224.863-3.5 0-1.462-.443-2.955-1.33-4.48A12.73 12.73 0 0 0 14.047 6.3c-1.431-1.058-2.894-1.649-4.387-1.773a25.164 25.164 0 0 1 2.24-1.96A84.94 84.94 0 0 1 14.56.56c2.147.716 3.842 2.077 5.087 4.083 1.244 2.007 1.866 4.24 1.866 6.697 0 2.178-.443 4.27-1.33 6.277-.886 2.006-2.185 3.64-3.896 4.9-1.711 1.26-3.734 1.89-6.067 1.89-1.867 0-3.586-.46-5.157-1.377a10 10 0 0 1-3.71-3.757C.451 17.687 0 15.93 0 14c0-3.391 1.003-6.331 3.01-8.82C5.017 2.691 7.638.964 10.873 0l.84.98z"/>
+        <path fill="#FFF" d="M18.12 2.719c.238-.191.423-.318.547-.409C20.377 1.05 22.4.42 24.733.42c1.867 0 3.586.459 5.157 1.377a10 10 0 0 1 3.71 3.756c.902 1.587 1.353 3.345 1.353 5.274 0 3.39-1.003 6.33-3.01 8.82-2.006 2.489-4.627 4.215-7.863 5.18l-.84-.98c2.333-1.494 4.169-3.158 5.507-4.994 1.337-1.835 2.006-3.997 2.006-6.486 0-1.4-.295-2.808-.886-4.224a8.665 8.665 0 0 0-2.66-3.523c-1.183-.933-2.598-1.4-4.247-1.4a6.94 6.94 0 0 0-3.59.988c-.301-.402-.535-.703-.703-.902-.11-.128-.291-.324-.547-.587zm-2.02 7.454c0 1.463.443 2.956 1.33 4.48a12.73 12.73 0 0 0 3.477 3.874c1.43 1.057 2.893 1.649 4.386 1.773a25.164 25.164 0 0 1-2.24 1.96 84.94 84.94 0 0 1-2.66 2.007c-2.146-.716-3.842-2.077-5.086-4.084-1.245-2.006-1.867-4.239-1.867-6.696a15.367 15.367 0 0 1 1.436-6.51c.56.467.594.513.743.675.044.048.434.47.693.79-.141.886-.212 1.463-.212 1.731z"/>
+        <g fill="#FFF" font-family="BrunoAce-Regular, Bruno Ace" font-size="22">
+            <text transform="translate(43 -2)">
+                <tspan x=".064" y="21">accolades</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
